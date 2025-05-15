@@ -94,4 +94,4 @@ def test_get():
     return jsonify({"message": "GET request working"})
 
 if __name__ == '__main__':
-    app.run(port=6969, debug=True)
+    app.run(debug=True)
