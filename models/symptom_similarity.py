@@ -12,7 +12,7 @@ class SymptomSimilarity:
         self.symptom_list = symptom_list
         self.vectorizer = None
         self.symptom_vectors = None
-    
+        """Loading stopwords for english"""
         self.stopwords = set(stopwords.words('english'))
         self.lemmatizer = WordNetLemmatizer()
 
